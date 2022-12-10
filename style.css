@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+.menu , .part_0 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.part_0{
+    padding: 20px;
+}
+
+.image_0{
+    background-color:rgba(255, 255, 255, 0.178) ;
+    flex: 1 0 auto;
+    max-width: 500px;
+   
+}
+
+.sign_up{
+    background-color: #3882f6;
+    color: aliceblue;
+    padding: 3px 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+li {
+    list-style-type:none;
+}
+
+.awsome {
+    max-width: 350px;
+}
+
+h2 , .section{
+    text-align: center;
+}
+
+.part_1 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 0px 200px;
+}
+
+.image {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.part_2 {
+    background-color: #e5e7eb;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.para_2 {
+    font-size: 36px;
+    padding: 0px 50px;
+}
+
+.para_3 {
+    font-weight: bold;
+    float: right;
+}
+
+.part_3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 5px;
+    
+}
+
+.sign_up2{
+    border: 3px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-color:#3882f6;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+}
